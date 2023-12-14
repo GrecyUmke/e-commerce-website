@@ -38,3 +38,6 @@ function SlideBar() {
     )
 }
 export default SlideBar;
+
+//doing the right thing
+//doing things right
