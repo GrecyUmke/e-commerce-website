@@ -3,7 +3,7 @@ import Link from 'next/link';
 function NavBar() {
   return (
     <div class="container fluid">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-white">
         <a className="navbar-brand" href="#" style={{marginRight:"30"}}>
           <img 
             src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" class="img-fluid"  
@@ -23,7 +23,7 @@ function NavBar() {
           <ul className="navbar-nav mx-5">
             <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg" width="25px" height="40px" alt="cart" class='img-fluid'></img>
             <li className="nav-item">
-              <a className="nav-link" href="#">Card</a>
+              <a className="nav-link" href="Card">Card</a>
             </li>
             <div className="dropdown">
               <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
