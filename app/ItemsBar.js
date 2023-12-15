@@ -1,12 +1,13 @@
 import React from "react";
 import Link from "next/link";
+import "./globals.css";
 
 function ItemsBar() {
     return(
         <div class="container fluid">
             <ul className="itembar mx-5 my-3 p:0">
                 <div className="row border border-dark" style={{width:"100%",height:"300px"}}>
-                    <div><h4>Shoes</h4></div> 
+                    <div><h4>Shoes</h4></div>
                     <div className="col-sm-2 border border-dark" style={{width:"194.3px",height:"250px"}}>
                         <a className="grecy" href="/Shoes">
                             <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/a/a/p/9-axe-white-9-hotstyle-white-original-imagthgrt9ae7g4x.jpeg?q=70"  class="img-fluid"style={{width:"270px",height:"247px"}}></img>
@@ -29,8 +30,9 @@ function ItemsBar() {
                     </div>
                 </div>
             </ul>
-            
         </div>
     )
 }
 export default ItemsBar;
+
+
