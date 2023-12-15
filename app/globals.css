@@ -1,6 +1,12 @@
 @import "bootstrap/dist/css/bootstrap.css";
 
 
+._2o9o_t{
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: scale(1) translateY(-50%);
+}
 
 
 
