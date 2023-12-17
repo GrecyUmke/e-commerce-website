@@ -7,6 +7,9 @@ function ItemsBar2() {
             <ul className="itembar mx-5 my-3 p:0">
             <div className="row" style={{width:"100%",height:"300px"}}>
                 <div><h4>Phone</h4></div> 
+                <a href="/Shoes">
+                    <div className="nav justify-content-end">View All</div>
+                </a>
                 <div className="col-sm-2" style={{width:"194.3px",height:"250px"}}>
                     <img src="https://asset.conrad.com/media10/isa/160267/c1/-/en/002757643PI00/image.jpg?x=400&y=400&format=jpg&ex=400&ey=400&align=center"  class="img-fluid"style={{width:"270px",height:"247px"}}></img>  
                 </div>

@@ -6,7 +6,10 @@ function ItemsBar3() {
         <div class="container fluid">
             <ul className="itembar mx-5 my-3 p:0">
             <div className="row" style={{width:"100%",height:"300px"}}>
-            <div><h4>Watch</h4></div> 
+                <div><h4>Watch</h4></div>
+                <a href="/Shoes">
+                    <div className="nav justify-content-end">View All</div>
+                </a> 
                 <div className="col-sm-2" style={{width:"194.3px",height:"250px"}}>
                     <img src="https://www.reliancedigital.in/medias/Noise-Mettle-Smart-Watch-493838766-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1ODczOHxpbWFnZS9qcGVnfGltYWdlcy9oYWUvaDUzLzEwMDI3ODIwNTgwODk0LmpwZ3wyMTBmNGJlNWIwMDczMmY5ZmRkNTEyNjczMDFkYjIxNjU1N2E2NTY4NDU3OTIxYzQ5ZjFjNWFiMjc2MmE1MGVk&w=206&h=206"  class="img-fluid"style={{width:"270px",height:"247px"}}></img>   
                 </div>

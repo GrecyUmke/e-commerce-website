@@ -19,7 +19,7 @@ const Shoes =()=>{
                     <h5 class="card-title product-title">Product 1</h5>
                         <p class="card-text product-description">Product 1 description.</p>
                         <p class="card-text product-price">$20.99</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="/Card" class="btn btn-primary">Add to Cart</a>
                 </div>
             </div>
         </div>
@@ -39,7 +39,7 @@ const Shoes =()=>{
                     <h5 class="card-title product-title">Product 1</h5>
                         <p class="card-text product-description">Product 1 description.</p>
                         <p class="card-text product-price">$20.99</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="/Card" class="btn btn-primary">Add to Cart</a>
                 </div>
             </div>
         </div>
@@ -59,7 +59,7 @@ const Shoes =()=>{
                     <h5 class="card-title product-title">Product 1</h5>
                         <p class="card-text product-description">Product 1 description.</p>
                         <p class="card-text product-price">$20.99</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="/Card" class="btn btn-primary">Add to Cart</a>
                 </div>
             </div>
         </div>
@@ -79,7 +79,7 @@ const Shoes =()=>{
                     <h5 class="card-title product-title">Product 1</h5>
                         <p class="card-text product-description">Product 1 description.</p>
                         <p class="card-text product-price">$20.99</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="/Card" class="btn btn-primary">Add to Cart</a>
                 </div>
             </div>
         </div>
@@ -99,7 +99,7 @@ const Shoes =()=>{
                     <h5 class="card-title product-title">Product 1</h5>
                         <p class="card-text product-description">Product 1 description.</p>
                         <p class="card-text product-price">$20.99</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="/Card" class="btn btn-primary">Add to Cart</a>
                 </div>
             </div>
         </div>
@@ -119,7 +119,7 @@ const Shoes =()=>{
                     <h5 class="card-title product-title">Product 1</h5>
                         <p class="card-text product-description">Product 1 description.</p>
                         <p class="card-text product-price">$20.99</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="/Card" class="btn btn-primary">Add to Cart</a>
                 </div>
             </div>
         </div>
