@@ -7,7 +7,26 @@
     top: 50%;
     transform: scale(1) translateY(-50%);
 }
+.product-card {
+    margin-bottom: 20px;
+}
 
+.product-image {
+    width: 100%;
+    height: auto;
+}
 
+.product-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
 
+.product-description {
+    color: #6c757d;
+}
 
+.product-price {
+    color: #007bff;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
