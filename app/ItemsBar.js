@@ -6,7 +6,6 @@ function ItemsBar() {
         <div class="container fluid">
             <ul className="itembar mx-5 my-3 p:0">
                 <div className="row " style={{width:"100%",height:"300px"}}>
-                    <div><h4>Shoes</h4></div>
                 <a href="/Shoes">
                     <div><h4>Shoes</h4></div>
                 </a> 

@@ -23,7 +23,7 @@ function NavBar() {
           <ul className="navbar-nav mx-5">
             <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg" width="25px" height="40px" alt="cart" class='img-fluid'></img>
             <li className="nav-item">
-              <a className="nav-link" href="Card">Card</a>
+              <a className="nav-link" href="Card">Cart</a>
             </li>
             <div className="dropdown">
               <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
