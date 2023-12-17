@@ -13,12 +13,13 @@ function ItemsBar() {
                         <a href="/Shoes">
                             <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/a/a/p/9-axe-white-9-hotstyle-white-original-imagthgrt9ae7g4x.jpeg?q=70"  class="img-fluid"style={{width:"270px",height:"247px"}}></img>   
                         </a>
+=======
                     <div><h4>Shoes</h4></div>
                     <a href="/Shoes">
                         <div className="nav justify-content-end">View All</div>
                     </a>
                     <div className="col-sm-2" style={{width:"193.3px",height:"250px"}}>
-                        <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/a/a/p/9-axe-white-9-hotstyle-white-original-imagthgrt9ae7g4x.jpeg?q=70"  class="img-fluid"style={{width:"270px",height:"247px"}}></img>   ec0a59481ba9c422a58ab9c5ea1015be1b4da7a8
+                        <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/a/a/p/9-axe-white-9-hotstyle-white-original-imagthgrt9ae7g4x.jpeg?q=70"  class="img-fluid"style={{width:"270px",height:"247px"}}></img>   
                     </div>
                     <div className="col-sm-2 border border-dark" style={{width:"194.3px",height:"250px"}}>
                         <img src="https://img3.junaroad.com/uiproducts/19720587/pri_175_p-1681889786.jpg"  class="img-fluid"style={{width:"270px",height:"247px"}}></img>
