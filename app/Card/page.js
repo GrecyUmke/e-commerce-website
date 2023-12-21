@@ -20,13 +20,52 @@ const Card =()=>{
                                                 <p class="mb-2">Color: White</p>
                                                 <p class="mb-3">Size: M</p>
                                             </div>
+
+                                            <div class="col-6">
+                                                <ul class="pagination justify-content-end set_quantity">
+                                                    <li class="page-item">
+                                                        <button class="page-link"><i class="fas fa-minys"></i>-</button>
+                                                    </li>
+                                                    <li class="page-item"><input type="text" name="" class="page-link" value="1" id="textbox"></input></li>
+                                                    <li class="page-item">
+                                                        <button class="page-link"><i class="fas fa-plus"></i>+</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-8 d-flex justify-content-between remove_wish">
+                                                <p><i class="fas fa-trash-alt"></i> REMOVE ITEM</p>
+                                                <p><i class="fas fa-heart"></i>MOVE TO WISH LIST</p>
+                                            </div>
+                                            <div class="col-4 d-flex justify-content-end price_money">
+                                                <h3>$<span id="itemval">0.00</span></h3>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
-
                         </div>
+
+                        <div class="col-md-12 col-lg-4 col-11 mx-auto mt-lg-0 mt-md-5">
+                            <div class="right_side p-3 shadow bg-white">
+                                <h2 class="product_name mb-5">The Total Amount Of</h2>
+                                <div class="price_indiv d-flex justify-content-between">
+                                    <p>Product Amount</p>
+                                    <p>$<span>0.00</span></p>
+                                </div>
+                                <div class="price_indiv d-flex justify-content-between">
+                                    <p>Shipping Charge</p>
+                                    <p>$50.0</p>
+                                </div>
+                                <hr />
+                                <div class="total-amt d-flex justify-content-between font-weight-bold">
+                                    <p>The total amount of (including VAT)</p>
+                                    <p>$<span class="total_cart_amt">0.00</span></p>
+                                </div>
+                                <button class="btn btn-primary text-uppercase">Checkout</button>
+                            </div>
+                        </div> 
 
                     </div>
 
@@ -38,3 +77,5 @@ const Card =()=>{
     )
 }
 export default Card;
+
+

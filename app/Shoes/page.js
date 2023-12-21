@@ -2,7 +2,6 @@
 const Shoes =()=>{
     return(
         <div class="container mt-5">
-
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-10">
                 <div class="card product-card">
@@ -20,7 +19,7 @@ const Shoes =()=>{
                     <h5 class="card-title product-title">AADI</h5>
                         <p class="card-text product-description">Synthetic Leather |Lightweight|Comfort|Summer|Trendy|Walking|Outdoor|Daily Use Sneakers For Men (White)</p>
                         <p class="card-text product-price">$500</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="/Card" class="btn btn-primary">Add to Cart</a>
 
                 </div>
             </div>
@@ -62,12 +61,6 @@ const Shoes =()=>{
                         <p class="card-text product-description">NEW RETRO SHOES HIGH PREMIUM QUALITY Running Shoes For Men Sneakers For Men (Blue)</p>
                         <p class="card-text product-price">$989</p>
                         <a href="#" class="btn btn-primary">Add to Cart</a>
-
-                    <h5 class="card-title product-title">Product 1</h5>
-                        <p class="card-text product-description">Product 1 description.</p>
-                        <p class="card-text product-price">$20.99</p>
-                        <a href="/Card" class="btn btn-primary">Add to Cart</a>
-
                 </div>
             </div>
         </div>
