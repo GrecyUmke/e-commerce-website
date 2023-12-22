@@ -6,9 +6,11 @@ function ItemsBar() {
         <div class="container fluid">
             <ul className="itembar mx-5 my-3 p:0">
                 <div className="row " style={{width:"100%",height:"300px"}}>
+                    
+                <div><h4>Shoes</h4></div>
                 <a href="/Shoes">
-                    <div><h4>Shoes</h4></div>
-                </a> 
+                    <div className="nav justify-content-end">View All</div>
+                </a>
                     <div className="col-sm-2" style={{width:"194.3px",height:"250px"}}>
                         <a href="/Shoes">
                             <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/a/a/p/9-axe-white-9-hotstyle-white-original-imagthgrt9ae7g4x.jpeg?q=70"  class="img-fluid"style={{width:"270px",height:"247px"}}></img>   
