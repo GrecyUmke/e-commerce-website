@@ -2,7 +2,6 @@
 const Shoes =()=>{
     return(
         <div class="container mt-5">
-
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-10">
                 <div class="card product-card">
@@ -16,10 +15,11 @@ const Shoes =()=>{
             </div>
             <div class="col-md-6">
                 <div class="card-body">
+
                     <h5 class="card-title product-title">AADI</h5>
                         <p class="card-text product-description">Synthetic Leather |Lightweight|Comfort|Summer|Trendy|Walking|Outdoor|Daily Use Sneakers For Men (White)</p>
                         <p class="card-text product-price">$500</p>
-                        <a href="/Card" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
             </div>
         </div>
@@ -60,10 +60,6 @@ const Shoes =()=>{
                         <p class="card-text product-description">NEW RETRO SHOES HIGH PREMIUM QUALITY Running Shoes For Men Sneakers For Men (Blue)</p>
                         <p class="card-text product-price">$989</p>
                         <a href="#" class="btn btn-primary">Add to Cart</a>
-                    <h5 class="card-title product-title">Product 1</h5>
-                        <p class="card-text product-description">Product 1 description.</p>
-                        <p class="card-text product-price">$20.99</p>
-                        <a href="/Card" class="btn btn-primary">Add to Cart</a>
                 </div>
             </div>
         </div>
@@ -80,10 +76,12 @@ const Shoes =()=>{
             </div>
             <div class="col-md-6">
                 <div class="card-body">
+
                     <h5 class="card-title product-title">Layasa</h5>
                         <p class="card-text product-description">Women's Mesh Sports Shoes Walking Sneakers For Women (Pink)</p>
                         <p class="card-text product-price">$30.33</p>
                         <a href="#" class="btn btn-primary">Add to Cart</a>
+
                 </div>
             </div>
         </div>
@@ -120,10 +118,12 @@ const Shoes =()=>{
             </div>
             <div class="col-md-6">
                 <div class="card-body">
+
                     <h5 class="card-title product-title">Nobelite</h5>
                         <p class="card-text product-description">Casuals For Men  (Blue)</p>
                         <p class="card-text product-price">$30.99</p>
                         <a href="#" class="btn btn-primary">Add to Cart</a>
+
                 </div>
             </div>
         </div>
