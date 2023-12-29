@@ -18,8 +18,7 @@ const Shoes =()=>{
                     <h5 class="card-title product-title">AADI</h5>
                         <p class="card-text product-description">Synthetic Leather |Lightweight|Comfort|Summer|Trendy|Walking|Outdoor|Daily Use Sneakers For Men (White)</p>
                         <p class="card-text product-price">$500</p>
-                        <a href="/Card" class="btn btn-primary">Add to Cart</a>
-                        
+                        <a href="/Card" class="btn btn-primary">Add to Cart</a>                        
                 </div>
             </div>
         </div>
