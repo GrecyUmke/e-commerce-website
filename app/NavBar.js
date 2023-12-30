@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 function NavBar() {
   return (
-    <div class="container fluid">
+
       <nav className="navbar navbar-expand-lg navbar-light bg-white">
         <a className="navbar-brand" href="#" style={{marginRight:"30"}}>
           <img 
@@ -41,7 +41,7 @@ function NavBar() {
           </ul>
         </div>
       </nav>
-    </div>
+    
   );
 }
 
