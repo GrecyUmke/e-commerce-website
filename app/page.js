@@ -8,6 +8,7 @@ import ItemsBar2 from "./ItemsBar2";
 import ItemsBar3 from "./ItemsBar3";
 import Footer from "./Footer";
 
+
 const Page = () =>{
   return(
     <>

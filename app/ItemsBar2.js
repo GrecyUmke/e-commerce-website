@@ -6,7 +6,7 @@ function ItemsBar2() {
         <div class="container fluid">
             <ul className="itembar mx-5 my-3 p:0">
             <div className="row" style={{width:"100%",height:"300px"}}>
-                <div><h4>Phone</h4></div> 
+                <div><h4>Smartphones</h4></div> 
                 <a href="/Shoes">
                     <div className="nav justify-content-end">View All</div>
                 </a>

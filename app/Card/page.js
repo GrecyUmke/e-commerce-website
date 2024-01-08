@@ -1,3 +1,4 @@
+import "./style.css";
 const Card =()=>{
     return(
         <div class="container-fluid">
@@ -46,6 +47,7 @@ const Card =()=>{
                                 </div>
                             </div>
                         </div>
+                        
 
                         <div class="col-md-12 col-lg-4 col-11 mx-auto mt-lg-0 mt-md-5">
                             <div class="right_side p-3 shadow bg-white">
