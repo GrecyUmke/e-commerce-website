@@ -31,7 +31,7 @@ function NavBar() {
               </button>
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li><a className="dropdown-item" href="#men's item">MEN'S WEAR</a></li>
-                <li><a className="dropdown-item" href="/women_collection">WOMEN'S WEAR</a></li>
+                <li><a className="dropdown-item" href="/womens_collection">WOMEN'S WEAR</a></li>
                 <li><a className="dropdown-item" href="#shoes">SHOES</a></li>
                 <li><a className="dropdown-item" href="#electronics">ELECTRONICS</a></li>
                 <li><a className="dropdown-item" href="#toy's">TOY'S</a></li>
