@@ -13,7 +13,7 @@ const Page = () =>{
   return(
     <>
       <NavBar/>
-      <SlideBar/>
+      <SlideBar/> 
       <ItemsBar/>
       <ItemsBar2/>
       <ItemsBar3/>

@@ -6,7 +6,7 @@ import React from 'react'
 
 function Product() {
   return (
-    <div> Product</div>
+    <h2> Product</h2>
   )
 }
 export default Product

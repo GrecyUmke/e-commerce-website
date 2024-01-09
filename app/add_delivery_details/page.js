@@ -25,13 +25,13 @@ const DeliveryDetailsForm = () => {
     e.preventDefault();
     console.log('Form submitted:', formData);
   };
-
   return (
     <div className="delivery-form-container">
-      <h2>Delivery Details</h2>
+        <h2> Add Delivery Details</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <label>Email Address:</label>
+          <label>Your Email Address:</label>
+          All details of purchase, also tracking details will be send here.
           <input
             type="email"
             name="email"
@@ -42,7 +42,8 @@ const DeliveryDetailsForm = () => {
         </div>
 
         <div className="form-group">
-          <label>Receiver's Name:</label>
+          <label>Name of the Receiver</label>
+          The delivery will be in this Name
           <input
             type="text"
             name="receiverName"
@@ -53,7 +54,8 @@ const DeliveryDetailsForm = () => {
         </div>
 
         <div className="form-group">
-          <label>Contact Number:</label>
+          <label>Contact Number of the Receiver</label>
+          TOur Delivery Guy may need this, to contact
           <input
             type="tel"
             name="contactNumber"
@@ -65,6 +67,8 @@ const DeliveryDetailsForm = () => {
 
         <div className="form-group">
           <label>Delivery Address:</label>
+          The products will be delivered here in 15- 20 days.
+          <label>Pin Code:</label>
           <input
             type="text"
             name="deliveryAddress"
@@ -75,7 +79,7 @@ const DeliveryDetailsForm = () => {
         </div>
 
         <div className="form-group">
-          <label>Address:</label>
+          <label>Address (House no, Flat no, Street, Area) </label>
           <input
             type="text"
             name="address"
@@ -95,11 +99,9 @@ const DeliveryDetailsForm = () => {
             required
           />
         </div>
-
-        <button type="submit">Submit</button>
+        <button type="submit">Complete Purchase </button>
       </form>
     </div>
   );
 };
-
 export default DeliveryDetailsForm;
