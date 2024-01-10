@@ -37,21 +37,20 @@ const YourComponent = () => {
           {data.products.map((product, index) => (
             <div key={index}>
               <h3>{product.name}</h3>
-              <p>Category: {product.category}</p>
-              <p>Price: ${product.price}</p>
-              <p>Stock: {product.stock}</p>
-              <p>Description: {product.description}</p>
-              <p>Images:</p>
               <div className="row3">
                 {product.images.map((image, imageIndex) => (
                   <img
                     key={imageIndex}
                     src={image}
                     alt={`Product ${index + 1} Image ${imageIndex + 1}`}
-                    style={{ width: "100px", height: "100px", marginRight: "5px" }}
+                    style={{ width: "200px", height: "200px", marginRight: "30px" }}
                   />
                 ))}
               </div>
+              <h4>Category: {product.category}</h4>
+              <h4>Price: ${product.price}</h4>
+              <h4>Stock: {product.stock}</h4>
+              <h4>Description: {product.description}</h4>
               <hr />
             </div>
           ))}
