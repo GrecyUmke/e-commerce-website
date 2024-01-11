@@ -17,7 +17,6 @@ const Page = () =>{
       <ItemsBar/>
       <ItemsBar2/>
       <ItemsBar3/>
-      <Footer/>
     </>
   )
 }
