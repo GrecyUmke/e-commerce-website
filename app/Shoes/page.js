@@ -46,11 +46,15 @@ const YourComponent = () => {
                     style={{ width: "200px", height: "200px", marginRight: "30px" }}
                   />
                 ))}
-              </div>
+            </div>
+              <h4>Title: {product.title}</h4>
+              <h4>Brand: {product.brand}</h4>
               <h4>Category: {product.category}</h4>
               <h4>Price: ${product.price}</h4>
+              <h4>DiscountPercentage: {product.discountPercentage}%</h4>
               <h4>Stock: {product.stock}</h4>
               <h4>Description: {product.description}</h4>
+              <h4>Rating: {product.rating}</h4>
               <hr />
             </div>
           ))}
