@@ -6,8 +6,7 @@ function NavBar() {
       <nav className="navbar navbar-expand-lg navbar-light bg-white">
         <a className="navbar-brand" href="#" style={{marginRight:"30"}}>
           <img 
-            src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" class="img-fluid"  
-            style={{ marginRight: "80" }}
+            src="shopping_cart .png" class="img-fluid" style={{ marginLeft: "100px" }}
           />
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
