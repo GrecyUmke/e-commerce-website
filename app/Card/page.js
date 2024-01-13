@@ -74,10 +74,24 @@ const Card =()=>{
                 </div>
 
             </div>
-
+            <div class="col-lg-10 border box_1 border-dark d-flex flex-column">Recommendations
+                <div class="col-12 border box_2 border-dark d-flex flex-row justify-content-around flex-wrap">
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box1">
+                        <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1"></div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box1">
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1"></div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box1">
+                        <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1"></div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box1">
+                        <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
 export default Card;
-
 

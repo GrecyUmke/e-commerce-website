@@ -1,15 +1,49 @@
 import React from "react";
+import "./page.css"
 const Women_collection = () => {
-  <h1>Women's Collection</h1>;
   fetch("https://fakestoreapi.com/products").then(function (res) {
     console.log(res);
   });
   return (
-    <>
-      <h1>Women's Collection</h1>
-      console.log(res);
-    </>
-  );
+      <>
+          <div className="container-fluid px-5">
+            <h2 className="mt-5">Women's Collection</h2>
+            <div className="scrolling-wrapper row flex-row flex-nowrap">
+              
+              <div className="col-3">
+                <div className="card card-block"></div>
+              </div>
+              <div className="col-3">
+                <div className="card card-block"></div>
+              </div>
+              <div className="col-3">
+                <div className="card card-block"></div>
+              </div>
+              <div className="col-3">
+                <div className="card card-block"></div>
+              </div>
+              <div className="col-3">
+                <div className="card card-block"></div>
+              </div>
+              <div className="col-3">
+                <div className="card card-block"></div>
+              </div>
+              <div className="col-3">
+                <div className="card card-block"></div>
+              </div>
+              <div className="col-3">
+                <div className="card card-block"></div>
+              </div>
+              <div className="col-3">
+                <div className="card card-block"></div>
+              </div>
+              <div className="col-3">
+                <div className="card card-block"></div>
+              </div>
+            </div>
+        </div>
+      </>
+    );
 };
 
 export default Women_collection;
