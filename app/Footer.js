@@ -3,8 +3,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <>
-      <div className="row row8" style={{ backgroundColor: 'black', color: 'white' }}>
+    <div class="container fluid">
+      <div className="row row8" style={{ backgroundColor:'#3722D3', color: 'white' }}>
         <div className="footer1">
           <p className="white-text">Back to top</p>
         </div>
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

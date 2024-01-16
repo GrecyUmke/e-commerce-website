@@ -1,5 +1,5 @@
 import React from "react";
-import "./page.css"
+import "./women.css"
 const Women_collection = () => {
   fetch("https://fakestoreapi.com/products").then(function (res) {
     console.log(res);
