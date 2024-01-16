@@ -12,16 +12,16 @@ function SlideBar() {
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/66e64fae2bbd6da4.jpg?q=20" class="d-block w-100" alt="first image"/>
+                        <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/66e64fae2bbd6da4.jpg?q=20" class="d-block w-1280px" alt="first image"/>
                     </div>
                     <div class="carousel-item">
-                        <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/b8e07ff39439d998.jpg?q=20" class="d-block w-100" alt="secoond image"/>
+                        <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/b8e07ff39439d998.jpg?q=20" class="d-block w-1280px" alt="secoond image"/>
                     </div>
                     <div class="carousel-item">
-                        <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/8773e89ba72303d6.jpg?q=20" class="d-block w-100" alt="thrid image"/>
+                        <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/8773e89ba72303d6.jpg?q=20" class="d-block w-1280px" alt="thrid image"/>
                     </div>
                     <div class="carousel-item">
-                        <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/7308a7338452882f.jpg?q=20" class="d-block w-100" alt="fourth image"/>
+                        <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/7308a7338452882f.jpg?q=20" class="d-block w-1280px" alt="fourth image"/>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

@@ -4,21 +4,28 @@ function NavBar() {
   return (
     <div class="container fluid">
       <nav className="navbar navbar-expand-lg navbar-light bg-white">
-        <a className="navbar-brand" href="#" style={{marginRight:"30"}}>
-          <img 
-            src="shopping_cart .png" class="img-fluid" style={{ marginLeft: "20px" }}
-          />
+        <a className="navbar-brand">
+          <img src="shopping_cart .png" class="img-fluid"/>
         </a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-          <div className="col-8">
-              <form className="d-flex my-2 my-lg-0">
-                  <input className="form-control mr-sm-2" type="search" placeholder="Search for Products,Brands and More" aria-label="Search" />
-                  <button className="btn-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
-          </div>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <a className="navbar-brand">
+          <img src="style.png" class="img-fluid" style={{ marginLeft: "28px"}}/>
+        </a>
+        <a className="navbar-brand" >
+          <img src="home.png" class="img-fluid" style={{ marginLeft: "28px"}}/>
+        </a>
+        <a className="navbar-brand">
+          <img src="education.png" class="img-fluid" style={{ marginLeft: "28px"}}/>
+        </a>
+        <a className="navbar-brand">
+          <img src="more.png" class="img-fluid" style={{ marginLeft: "28px"}}/>
+        </a>
+        <a className="navbar-brand">
+          <img src="Search.png" class="img-fluid" style={{ marginLeft: "291px"}}/>
+        </a>
+        <a className="navbar" href="/Card">
+          <img src="cart.png" class="img-fluid" style={{ marginLeft: "8px"}}/>
+        </a>
+        {/* <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-5">
             <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg" width="25px" height="40px" alt="cart" class='img-fluid'></img>
             <li className="nav-item">
@@ -34,11 +41,11 @@ function NavBar() {
                 <li><a className="dropdown-item" href="#shoes">SHOES</a></li>
                 <li><a className="dropdown-item" href="#electronics">ELECTRONICS</a></li>
                 <li><a className="dropdown-item" href="#toy's">TOY'S</a></li>
-                <li><a className="dropdown-item" href="#watch">WATCH</a></li>
-              </ul>
-            </div>
-          </ul>
-        </div>
+                <li><a className="dropdown-item" href="#watch">WATCH</a></li> */}
+              {/* </ul> */}
+            {/* </div> */}
+          {/* </ul> */}
+        {/* </div> */}
       </nav>
     </div>
   );
