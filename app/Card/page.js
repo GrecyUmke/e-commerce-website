@@ -77,16 +77,32 @@ const Card =()=>{
             <div class="col-lg-10 border box_1 border-dark d-flex flex-column">Recommendations
                 <div class="col-12 border box_2 border-dark d-flex flex-row justify-content-around flex-wrap">
                     <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box1">
-                        <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1"></div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1">
+                            <img src="https://atlas-content-cdn.pixelsquid.com/stock-images/school-chair-ENAk6N7-600.jpg" style={{height:"304px"}}></img>
+                        </div>
+                        <div class="col-5 border border-dark">Product Name</div>
+                        <div class="col-5 border border-dark star">star</div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box1">
-                    <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1"></div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1">
+                        <img></img>
+                    </div>
+                        <div class="col-5 border border-dark">Product Name</div>
+                        <div class="col-5 border border-dark star">star</div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box1">
-                        <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1"></div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1">
+                            <img></img>
+                        </div>
+                        <div class="col-5 border border-dark">Product Name</div>
+                        <div class="col-5 border border-dark star">star</div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box1">
-                        <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1"></div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1">
+                            <img></img>
+                        </div>
+                        <div class="col-5 border border-dark">Product Name</div>
+                        <div class="col-5 border border-dark star">star</div>
                     </div>
                 </div>
             </div>

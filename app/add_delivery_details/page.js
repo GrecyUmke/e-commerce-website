@@ -4,103 +4,75 @@ import './s.css';
 
 
 const DeliveryDetailsForm = () => {
-  const [formData, setFormData] = useState({
-    email: '',
-    receiverName: '',
-    contactNumber: '',
-    deliveryAddress: '',
-    address: '',
-    townCity: '',
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Form submitted:', formData);
-  };
   return (
-    <div className="delivery-form-container">
-        <h2> Add Delivery Details</h2>
-      <form onSubmit={handleSubmit}>
-        <div className="form-group">
-          <label>Your Email Address:</label>
-          All details of purchase, also tracking details will be send here.
-          <input
-            type="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
+    <div className="container-fluid" style={{width:"1670px"}}>
+      <div className='row' style={{height:"143px",backgroundColor:"#3F0DA9"}}>
+        <div className='col mt-4 mx-5' style={{height:"83px",color:"#FBE9A9"}}>
+          <h1 className='inika-style'>Add Delivery Details</h1>
+          <p className='font-weight-bold'>Add the details below.</p>
         </div>
+      </div>
+      <div>
+        <div className="form-container">
+          <form>
+          <div className="form-group">
+              <label>Your Email Address:</label>
+              <p>All details of purchase, also tracking details will be sent here.</p>
+              <input
+                type="email"
+                name="email"
+               />
+          </div>
 
-        <div className="form-group">
-          <label>Name of the Receiver</label>
-          The delivery will be in this Name
-          <input
-            type="text"
-            name="receiverName"
-            value={formData.receiverName}
-            onChange={handleChange}
-            required
-          />
-        </div>
+          <div className="form-group">
+            <label>Name of the Receiver:</label>
+            <p>The delivery will be in this Name.</p>
+            <input
+              type="text"
+              name="receiverName"
+            />
+          </div>
 
-        <div className="form-group">
-          <label>Contact Number of the Receiver</label>
-          TOur Delivery Guy may need this, to contact
-          <input
-            type="tel"
-            name="contactNumber"
-            value={formData.contactNumber}
-            onChange={handleChange}
-            required
-          />
-        </div>
+          <div className="form-group">
+            <label>Contact Number of the Receiver:</label>
+            <p>Your Delivery Guy may need this to contact you.</p>
+            <input
+              type="tel"
+              name="contactNumber"
+            />
+          </div>
 
-        <div className="form-group">
-          <label>Delivery Address:</label>
-          The products will be delivered here in 15- 20 days.
-          <label>Pin Code:</label>
-          <input
-            type="text"
-            name="deliveryAddress"
-            value={formData.deliveryAddress}
-            onChange={handleChange}
-            required
-          />
-        </div>
+          <div className="form-group">
+            <label>Delivery Address:</label>
+            <p>The products will be delivered here in 15-20 days.</p>
+            <label>Pin Code:</label>
+            <input
+              type="text"
+              name="deliveryAddress"
+            />
+          </div>
 
-        <div className="form-group">
-          <label>Address (House no, Flat no, Street, Area) </label>
-          <input
-            type="text"
-            name="address"
-            value={formData.address}
-            onChange={handleChange}
-            required
-          />
-        </div>
+          <div className="form-group">
+            <label>Address (House no, Flat no, Street, Area):</label>
+            <input
+              type="text"
+              name="address"
+            />
+          </div>
 
-        <div className="form-group">
-          <label>Town/City:</label>
-          <input
-            type="text"
-            name="townCity"
-            value={formData.townCity}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <button type="submit">Complete Purchase </button>
-      </form>
+          <div className="form-group">
+            <label>Town/City:</label>
+            <input
+              type="text"
+              name="townCity"
+            />
+          </div>
+          </form>
+      </div>
+      <div className='button1'>
+        <button type="submit">Complete Purchase</button>
+      </div>
+    </div>
     </div>
   );
 };
