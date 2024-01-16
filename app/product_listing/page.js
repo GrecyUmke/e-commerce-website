@@ -1,3 +1,4 @@
+
 import React from 'react';
 import "./page.css"
 const Explore= () => {
@@ -10,7 +11,7 @@ const Explore= () => {
                   <p className='font-weight-bold'>Crafted Elegance: Artisanal Wooden Furniture</p>
               </div>
           </div>
-          <div className='col-2 mt-3 border border-dark'>
+          <div className='col-2 mt-3 border border-dark sort'>
               <p>Sort By: Name A--Z</p>
           </div>
           <div className='row'>
@@ -34,8 +35,68 @@ const Explore= () => {
                 <p>Up to 700</p>
             </div>
             </div>
-              <div className='col-10 mt-4 border border-dark' style={{height:"824px"}}>
-                <p>CLEAR</p>
+              <div className='col-10 mt-4 border border-dark' style={{height:"1020px"}}>
+                <div class="col-12 border box_2 border-dark d-flex flex-row justify-content-around flex-wrap">
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box1">
+                        <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1">
+                            <img src="https://atlas-content-cdn.pixelsquid.com/stock-images/school-chair-ENAk6N7-600.jpg" style={{height:"303px"}}></img>
+                        </div>
+                        <div class="col-5 border border-dark">Product Name</div>
+                        <div class="col-5 border border-dark star">star</div>
+                        <div class="col-5 border border-dark price">price</div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box1">
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1">
+                        <img></img>
+                    </div>
+                        <div class="col-5 border border-dark">Product Name</div>
+                        <div class="col-5 border border-dark star">star</div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box1">
+                        <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1">
+                            <img></img>
+                        </div>
+                        <div class="col-5 border border-dark">Product Name</div>
+                        <div class="col-5 border border-dark star">star</div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box1">
+                        <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1">
+                            <img></img>
+                        </div>
+                        <div class="col-5 border border-dark">Product Name</div>
+                        <div class="col-5 border border-dark star">star</div>
+                    </div>
+                </div>
+                <div class="col-12 border box_2 border-dark d-flex flex-row justify-content-around flex-wrap">
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box1">
+                        <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1">
+                            <img src="https://atlas-content-cdn.pixelsquid.com/stock-images/school-chair-ENAk6N7-600.jpg" style={{height:"303px"}}></img>
+                        </div>
+                        <div class="col-5 border border-dark">Product Name</div>
+                        <div class="col-5 border border-dark star">star</div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box1">
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1">
+                        <img></img>
+                    </div>
+                        <div class="col-5 border border-dark">Product Name</div>
+                        <div class="col-5 border border-dark star">star</div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box1">
+                        <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1">
+                            <img></img>
+                        </div>
+                        <div class="col-5 border border-dark">Product Name</div>
+                        <div class="col-5 border border-dark star">star</div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box1">
+                        <div class="col-lg-2 col-md-4 col-sm-6 col-12 border border-dark box-1">
+                            <img></img>
+                        </div>
+                        <div class="col-5 border border-dark">Product Name</div>
+                        <div class="col-5 border border-dark star">star</div>
+                    </div>
+                </div>
             </div>
           </div>
           <div className='col-10 mt-4' style={{heigh:"1750px"}}>

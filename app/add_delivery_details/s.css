@@ -1,12 +1,13 @@
 
-.delivery-form-container {
+.form-container {
     max-width: 900px;
-    margin: auto;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
+    margin: auto;
+
 }
-  
+
 .form-group {
     margin-bottom: 10px;
 }
@@ -47,3 +48,9 @@ button:hover {
     height: 143px;
 }
 
+.button1{
+    display: flex;
+    padding: 28px 30px 20px 365px;
+    align-items: center;
+    gap: 30px;
+}
