@@ -1,7 +1,9 @@
+import NavBar from "../NavBar";
 import "./style.css";
 const Card =()=>{
     return(
     <div className="container-fluid" style={{width:"1670px"}}>
+        <NavBar/>
       <div className='row' style={{height:"143px",backgroundColor:"#3F0DA9"}}>
         <div className='col mt-4 mx-5' style={{height:"83px",color:"#FBE9A9"}}>
           <h1 className='inika-style'>MY CART</h1>
@@ -24,7 +26,7 @@ const Card =()=>{
                     </div>
                     <div class="col remove">Remove</div>
                 </div>
-                <div class="col-4 rs">Rs.699</div>
+                <div class=" col-2 border text-center p-3 rs">Rs.699</div>
             </div>
 
         </div>
@@ -47,14 +49,16 @@ const Card =()=>{
                     </div>
                     <div class="col remove">Remove</div>
                 </div>
-                <div class="col-4 rs">Rs.699</div>
+                <div class="col-2 border text-center p-3 rs">Rs.699</div>
             </div>
         </div>
       </div>
-        <div className='button1'>
+      <div class="col-md-4 offset-md-9 border border-dark totel ">
+        <p>Totel Rs.699</p>
+      </div>
+        <div className='button'>
             <button type="submit">Proceed to Buy</button>
         </div>
-
     </div>
     )
 }

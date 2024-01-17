@@ -29,6 +29,7 @@
 .rs{
     color: #000;
     font-family: Inika;
+    height: 50px;
 }
 .rating{
     float: right;
@@ -42,9 +43,21 @@ button {
     color: #FBE9A9;
     font-family: Inika;
     font-size: 31.108px;
-    line-height: 100%; 
+    line-height: 100%;
 }
   
 button:hover {
     background-color: #45a049;
+}
+
+.button{
+    display: flex;
+    padding: 28px 30px 20px 1200px;
+    align-items: center;
+    gap: 30px;
+}
+
+.totel{
+    width: 179px;
+    height: 26px;
 }
