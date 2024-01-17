@@ -1,11 +1,13 @@
 "use client"
 import React, { useState } from 'react';
-import './s.css'; 
+import NavBar from "../NavBar";
+import './add.css'; 
 
 
 const DeliveryDetailsForm = () => {
   return (
-    <div className="container-fluid" style={{width:"1670px"}}>
+    <div className="container" style={{width:"1670px"}}>
+      <NavBar/>
       <div className='row' style={{height:"143px",backgroundColor:"#3F0DA9"}}>
         <div className='col mt-4 mx-5' style={{height:"83px",color:"#FBE9A9"}}>
           <h1 className='inika-style'>Add Delivery Details</h1>

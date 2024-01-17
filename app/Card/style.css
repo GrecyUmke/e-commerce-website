@@ -52,12 +52,12 @@ button:hover {
 
 .button{
     display: flex;
-    padding: 28px 30px 20px 1200px;
+    padding: 28px 30px 20px 1020px;
     align-items: center;
     gap: 30px;
 }
 
 .totel{
-    width: 179px;
+    width: 160px;
     height: 26px;
 }

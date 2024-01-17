@@ -2,7 +2,7 @@ import NavBar from "../NavBar";
 import "./style.css";
 const Card =()=>{
     return(
-    <div className="container-fluid" style={{width:"1670px"}}>
+    <div className="container" style={{width:"1670px"}}>
         <NavBar/>
       <div className='row' style={{height:"143px",backgroundColor:"#3F0DA9"}}>
         <div className='col mt-4 mx-5' style={{height:"83px",color:"#FBE9A9"}}>
@@ -53,7 +53,7 @@ const Card =()=>{
             </div>
         </div>
       </div>
-      <div class="col-md-4 offset-md-9 border border-dark totel ">
+      <div class="col-md-4 offset-md-10 border border-dark totel ">
         <p>Totel Rs.699</p>
       </div>
         <div className='button'>
