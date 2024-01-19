@@ -32,6 +32,7 @@ const Card =()=>{
         </div>
       </div>
 
+    <div className="col-4 line1"></div>
 
       <div className="row border border-dark box1">
         <div className="col-3">

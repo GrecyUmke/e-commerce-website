@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useEffect } from "react";
-import "./style.css";
 import NavBar from "../NavBar";
+import "./style.css";
 
 const YourComponent = () => {
   const [data, setData] = useState(null);
@@ -32,6 +32,7 @@ const YourComponent = () => {
   return (
     <div class="container fluid">
       <div className="row">
+
       <NavBar/>
         {loading && <div>Loading...</div>}
         {error && <div>Error: {error.message}</div>}
@@ -64,7 +65,8 @@ const YourComponent = () => {
           </div>
         )}
       </div>
-    </div> 
+    </div>
+
   );
 };
 

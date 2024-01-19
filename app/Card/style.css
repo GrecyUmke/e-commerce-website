@@ -61,3 +61,11 @@ button:hover {
     width: 160px;
     height: 26px;
 }
+
+.line1{
+    width: 1180px;
+    height: 1px;
+    opacity: 0.8;
+    background: #4E4D4D;
+    margin-top: 60px;
+}

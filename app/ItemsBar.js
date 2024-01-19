@@ -25,7 +25,7 @@ function ItemsBar() {
                         <img src="Go.svg" style={{marginLeft:"16px"}}/>  
                     </div>
                     <div className="col-sm-2 " style={{width:"316px",height:"403px"}}>
-                        <img src="https://www.campusshoes.com/cdn/shop/products/RAISE_22L-129_ANGLFALS-MUNLT.jpg?v=1670325436"  class="img-fluid"style={{width:"315px",height:"300px"}}></img>
+                        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/18274390/2022/5/14/c64644f6-840f-4496-bb42-19359e9881771652523841987RoadsterMenBrownTexturedPUSneakers1.jpg"  class="img-fluid"style={{width:"315px",height:"300px"}}></img>
                         <b><h4>Product Name</h4></b>
                         <img src="rating.png"/>
                         <img src="Rs.699.png" style={{height:"20px",marginLeft:"50px"}}/> 
